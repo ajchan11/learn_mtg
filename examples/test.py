@@ -33,4 +33,4 @@ auth = OAuthHandler(ckey, csecret)
 auth.set_access_token(atoken, asecret)
 
 twitterStream = Stream(auth, listener())
-twitterStream.filter(track=["mtgfinance", "magicthegathering", "ptahk", "tcgplayer", "edh", "mtgbuysell"])
+twitterStream.filter(track=["mtgfinance", "magicthegathering", "ptahk", "tcgplayer", "edh", "mtgbuysell", "#ptakh", "#wotcstaff", "#mtg", "#mtgfinance", "#magicthegathering", "#magic", "#pack1pick1", "#CMDR", "#puzzlequest", "#genesis", "#lingeringsouls", "#cfb", "#channelfireball", "#cfbice", "#scg", "#pptq", "#ptq", "#jund", "#mtgmintcard", "#mtgo", "#modo", "#PTAmonkhet", "#mtgbentcard", "#mtgakh", "#dexarmy", "#ligamagic", "#dexthird", "#commander"])
